@@ -1,0 +1,99 @@
+/* Main BG colour */
+main {
+  background-color: #F7F8FC;
+}
+
+/* First Four Boxes Hover */
+.responsive-button:hover {
+  border: 1px solid #3751FF;
+}
+
+/* Profile Picture */
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+/* Speicific Texts Styling for Main */
+.main-subtitle,
+.group-name {
+  font-size: 12px;
+}
+
+.stat-title {
+  font-size: 16px;
+}
+
+.section-text,
+.section-text-grey,
+.section-number,
+.view-details {
+  font-size: 14px;
+}
+
+.group-name {
+  color: #4B506D;
+}
+
+.main-subtitle,
+.stat-title,
+.section-number {
+  color: #9FA2B4;
+}
+
+.section-text-grey {
+  color: #C5C7CD;
+}
+
+
+/* View Details & View All Links Colour */
+.view-details {
+  color: #3751FF;
+}
+
+.view-details:hover {
+  color: #6286FF;
+}
+
+
+/* Styling Tasks Buttons*/
+/* URGENT */
+.urgent-btn {
+  width: 74px;
+  height: 24px;
+  border-radius: 8px;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+/* NEW */
+.new-btn {
+  width: 54px;
+  height: 24px;
+  font-size: 11px;
+  border-radius: 8px;
+}
+
+/* DEFAULT */
+.default-btn {
+  width: 76px;
+  height: 24px;
+  font-size: 11px;
+  border-radius: 8px;
+  color: #9FA2B4;
+}
+
+/* Styling Click Me Amanda Button in Sidebar*/
+.btn-amanda {
+  background-color: #81D8D0;
+  border-color: #c1cfce;
+}
+
+.btn-amanda:hover,
+.btn-amanda:focus,
+.btn-amanda:active {
+  background-color: #b7f3ea;
+  border-color: #057d6b;
+}
