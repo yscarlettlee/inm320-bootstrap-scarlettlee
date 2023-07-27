@@ -97,3 +97,17 @@ main {
   background-color: #b7f3ea;
   border-color: #057d6b;
 }
+
+/* Making the Side Border to Disappear in Mobile Mode */
+
+@media (max-width: 991px) {
+  .custom-border {
+    border-left: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-border {
+    border-left: 1px solid #DFE0EB;
+  }
+}
