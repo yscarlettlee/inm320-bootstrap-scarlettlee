@@ -99,7 +99,6 @@ main {
 }
 
 /* Making the Side Border to Disappear in Mobile Mode */
-
 @media (max-width: 991px) {
   .custom-border {
     border-left: none;
